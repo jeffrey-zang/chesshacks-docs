@@ -1,87 +1,76 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "aspen",
+  "name": "ChessHacks",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5D00FF",
+    "light": "#6D7FFF",
+    "dark": "#3B00B2"
+  },
+  "fonts": {
+    "body": {
+      "family": "Effra Trial",
+      "weight": 400,
+      "source": "/fonts/Effra_Trial_Rg.woff",
+      "format": "woff"
+    },
+    "heading": {
+      "family": "Effra Trial",
+      "weight": 700,
+      "source": "/fonts/Effra_Trial_SBd.woff",
+      "format": "woff"
+    }
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "decoration": "gradient"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "pages": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "Getting Started",
+        "pages": ["introduction", "quickstart", "rules"]
+      },
+      {
+        "group": "Building Your Bot",
+        "pages": [
+          "bot/setup",
+          "bot/structure",
+          "bot/api-reference",
+          "bot/testing-locally",
+          "bot/examples"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Deployment",
+        "pages": [
+          "deployment/overview",
+          "deployment/requirements",
+          "deployment/deploying",
+          "deployment/troubleshooting"
+        ]
+      },
+      {
+        "group": "Competition",
+        "pages": [
+          "competition/how-it-works",
+          "competition/matchmaking",
+          "competition/leaderboard",
+          "competition/scoring"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "resources/faq",
+          "resources/support",
+          "resources/best-practices"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -90,33 +79,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Discord",
+        "href": "https://discord.com/channels/1427343320484544644"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "href": "https://chesshacks.dev/dashboard"
     }
   }
 }
