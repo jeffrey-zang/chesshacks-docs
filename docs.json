@@ -7,20 +7,6 @@
     "light": "#6D7FFF",
     "dark": "#3B00B2"
   },
-  "fonts": {
-    "body": {
-      "family": "Effra Trial",
-      "weight": 400,
-      "source": "/fonts/Effra_Trial_Rg.woff",
-      "format": "woff"
-    },
-    "heading": {
-      "family": "Effra Trial",
-      "weight": 700,
-      "source": "/fonts/Effra_Trial_SBd.woff",
-      "format": "woff"
-    }
-  },
   "appearance": {
     "default": "dark"
   },
@@ -32,42 +18,23 @@
     "pages": [
       {
         "group": "Getting Started",
-        "pages": ["introduction", "quickstart", "rules"]
+        "pages": ["introduction"]
       },
       {
-        "group": "Building Your Bot",
+        "group": "Resources",
         "pages": [
-          "bot/setup",
-          "bot/structure",
-          "bot/api-reference",
-          "bot/testing-locally",
-          "bot/examples"
-        ]
-      },
-      {
-        "group": "Deployment",
-        "pages": [
-          "deployment/overview",
-          "deployment/requirements",
-          "deployment/deploying",
-          "deployment/troubleshooting"
+          "resources/discord",
+          "resources/dashboard",
+          "resources/support"
         ]
       },
       {
         "group": "Competition",
         "pages": [
-          "competition/how-it-works",
-          "competition/matchmaking",
-          "competition/leaderboard",
-          "competition/scoring"
-        ]
-      },
-      {
-        "group": "Resources",
-        "pages": [
-          "resources/faq",
-          "resources/support",
-          "resources/best-practices"
+          "competition/overview",
+          "competition/rules",
+          "competition/judging",
+          "competition/prizes"
         ]
       }
     ]
